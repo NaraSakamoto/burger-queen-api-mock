@@ -67,34 +67,99 @@
   "products": [
     {
       "id": 1,
-      "name": "Sandwich de jamón y queso",
-      "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
+      "name": "Café com leite",
+      "price": 700,
+      "image": "/imagens/cafe-com-leite.png",
+      "type": "Café da manhã",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
       "id": 2,
       "name": "Café americano",
       "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
-      "type": "Desayuno",
+      "image": "/imagens/cafe-americano.png",
+      "type": "Café da manhã",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
       "id": 3,
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
+      "name": "Sanduíche de presunto e queijo",
+      "price": 1000,
+      "image": "/imagens/misto-quente.png",
+      "type": "Café da manhã",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
-      "name": "Agua 500ml",
+      "id": 4,
+      "name": "Suco de fruta natural",
+      "price": 700,
+      "image": "/imagens/suco-de-fruta.png",
+      "type": "Café da manhã",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 5,
+      "name": "Hambúrguer Simples",
+      "price": 100,
+      "image": "/imagens/hamburguer-simples.png",
+      "type": "Hambúrgueres",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 6,
+      "name": "Hambúrguer Duplo",
+      "price": 1500,
+      "image": "/imagens/hamburguer-duplo.png",
+      "type": "Hambúrgueres",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 7,
+      "name": "Batata Frita",
       "price": 500,
-      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-      "type": "Almuerzo",
-      "id": 4
+      "image": "/imagens/batata-frita.png",
+      "type": "Acompanhamentos",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 8,
+      "name": "Anéis de Cebola",
+      "price": 500,
+      "image": "/imagens/aneis-de-cebola.png",
+      "type": "Acompanhamentos",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 9,
+      "name": "Água 500ml",
+      "price": 500,
+      "image": "/imagens/agua.png",
+      "type": "Bebidas",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 10,
+      "name": "Água 750ml",
+      "price": 700,
+      "image": "/imagens/agua.png",
+      "type": "Bebidas",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 11,
+      "name": "Bebida Gaseificada 500ml",
+      "price": 700,
+      "image": "/imagens/bebida-gaseificada.png",
+      "type": "Bebidas",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 12,
+      "name": "Bebida Gaseificada 750ml",
+      "price": 1000,
+      "image": "/imagens/bebida-gaseificada.png",
+      "type": "Bebidas",
+      "dateEntry": "2022-03-05 15:14:10"
     }
   ],
   "users": [
@@ -115,6 +180,12 @@
       "password": "$2a$10$VkvaBkhnm4k3KP/yCdhCgu/qtzxe7F00CVkTsAsr5pbfU8rPVZEQW",
       "role": "admin",
       "id": 3
+    },
+    {
+      "email": "admin@bobsburguer.com",
+      "password": "123456",
+      "role": "admin",
+      "id": 4
     }
   ]
 }
