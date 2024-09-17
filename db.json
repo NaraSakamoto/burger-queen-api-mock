@@ -67,7 +67,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Sandwich de jamón y queso",
+      "name": "Sandwich de queso",
       "price": 1000,
       "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
       "type": "Desayuno",
