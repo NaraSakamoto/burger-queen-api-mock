@@ -67,34 +67,171 @@
   "products": [
     {
       "id": 1,
-      "name": "Sandwich de jamón y queso",
-      "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
+      "name": "Café com leite",
+      "price": 7,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/cafe-com-leite.png",
+      "category": "Café da manhã",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
       "id": 2,
       "name": "Café americano",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
-      "type": "Desayuno",
+      "price": 5,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/cafe-americano.png",
+      "category": "Café da manhã",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
       "id": 3,
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
+      "name": "Misto quente",
+      "price": 10,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/misto-quente.png",
+      "category": "Café da manhã",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-      "type": "Almuerzo",
-      "id": 4
+      "id": 4,
+      "name": "Suco de fruta",
+      "price": 7,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/suco-de-fruta.png",
+      "category": "Café da manhã",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 5,
+      "name": "Simples",
+      "price": 10,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/hamburguer-simples.png",
+      "category": "Hambúrgueres",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 6,
+      "name": "Duplo",
+      "price": 15,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/hamburguer-duplo.png",
+      "category": "Hambúrgueres",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 7,
+      "name": "Batata frita",
+      "price": 5,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/batata-frita.png",
+      "category": "Acompanhamentos",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 8,
+      "name": "Anéis de cebola",
+      "price": 5,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/aneis-de-cebola.png",
+      "category": "Acompanhamentos",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 9,
+      "name": "Água 500ml",
+      "price": 5,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/agua.png",
+      "category": "Bebidas",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 10,
+      "name": "Água 750ml",
+      "price": 7,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/agua.png",
+      "category": "Bebidas",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 11,
+      "name": "Refrigerante 500ml",
+      "price": 7,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/bebida-gaseificada.png",
+      "category": "Bebidas",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 12,
+      "name": "Refrigerante 750ml",
+      "price": 10,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/bebida-gaseificada.png",
+      "category": "Bebidas",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 13,
+      "name": "Coco gelado",
+      "price": 8,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/coco-gelado.png",
+      "category": "Bebidas",
+      "dateEntry": "2022-03-05 15:14:10"
+    }, 
+    {
+      "id": 14,
+      "name": "Donuts marinhos",
+      "price": 5,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/donuts.png",
+      "category": "Acompanhamentos",
+      "dateEntry": "2022-03-05 15:14:10"
+    }, 
+    {
+      "id": 15,
+      "name": "SushiBob",
+      "price": 25,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/comida-japonesa.png",
+      "category": "Acompanhamentos",
+      "dateEntry": "2022-03-05 15:14:10"
+    }, 
+    {
+      "id": 16,
+      "name": "Cupcake do Bob",
+      "price": 4,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/cupecake.png",
+      "category": "Acompanhamentos",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 17,
+      "name": "Cuscuz da Sandy",
+      "price": 15,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/cuscuz.png",
+      "category": "Café da manhã",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 18,
+      "name": "Siri",
+      "price": 20,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/hamburguer-siri.png",
+      "category": "Hambúrgueres",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 19,
+      "name": "Pão Siriqueijo",
+      "price": 2,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/pao-de-queijo.png",
+      "category": "Café da manhã",
+      "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 20,
+      "name": "Picolé arco-íris",
+      "price": 4,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/sorvete.png",
+      "category": "Acompanhamentos",
+      "dateEntry": "2022-03-05 15:14:10"
+    }, 
+    {
+      "id": 21,
+      "name": "Bebida esponjosa",
+      "price": 12,
+      "image": "https://raw.github.com/paola-oliveira/burger-queen-api-mock/main/imagens/cerveja.png",
+      "category": "Bebidas",
+      "dateEntry": "2022-03-05 15:14:10"
     }
   ],
   "users": [
@@ -115,6 +252,24 @@
       "password": "$2a$10$VkvaBkhnm4k3KP/yCdhCgu/qtzxe7F00CVkTsAsr5pbfU8rPVZEQW",
       "role": "admin",
       "id": 3
+    },
+    {
+      "email": "admin@bobsburguer.com",
+      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+      "role": "admin",
+      "id": 4
+    },
+    {
+      "email": "atendente@bobsburguer.com",
+      "password": "123456",
+      "role": "garcom",
+      "id": 5
+    },
+    {
+      "email": "cozinha@bobsburguer.com",
+      "password": "123456",
+      "role": "cozinha",
+      "id": 6
     }
   ]
 }
